@@ -1,0 +1,124 @@
+/* 
+  ##Device = Tablets, Ipads (portrait), Mobile Phones
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    .need-work {
+        margin-top: 2rem;
+    }
+
+    .navbar-nav {
+        flex-direction: column !important;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 56px;
+        background: #000000;
+        padding: 1rem;
+        left: 0;
+        width: 100%;
+        justify-content: flex-start !important;
+    }
+
+    .navbar-toggler {
+        display: block !important;
+        border: none; /* Remove default border */
+        outline: none; /* Remove outline */
+    }
+
+    .navbar-toggler img {
+        width: 30px; /* Adjust the size as needed */
+        height: auto;
+    }
+
+    button:focus:not(:focus-visible) {
+        box-shadow: none;
+    }
+
+    .collapse:not(.show) {
+        display: none;
+    }
+
+    .mission .bloc div:nth-child(1), .vision .bloc div:nth-child(2) {
+        padding: 3.5rem 2rem;
+    }
+
+    .founder {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+
+    .founder div:first-child {
+        background-position: top;
+        height: 50vh;
+    }
+
+    .founder div:nth-child(2) {
+        padding: 0 2em;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles
+*/
+
+@media (max-width: 768px) {
+
+    h1,
+    h2 {
+        text-align: center;
+    }
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+
+    .career-section .container {
+        padding-top: 2rem;
+    }
+
+    .career-section h6 {
+        color: var(--yellow);
+        text-align: center;
+        width: auto;
+        margin: 2em;
+    }
+
+    .need-work .bloc {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .need-work .bloc-img {
+        height: 250px;
+    }
+
+    .ig-account {
+        text-align: center;
+        margin: -1em 0 2em;
+    }
+
+    .testimonials .splide__arrow--prev {
+        left: -3em;
+    }
+
+    .testimonials .splide__arrow--next {
+        right: -3em;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        margin-top: 1.5em;
+    }
+}
