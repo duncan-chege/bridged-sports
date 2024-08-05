@@ -13,7 +13,9 @@ get_header(); ?>
                     src="<?php echo get_template_directory_uri(); ?>/assets/img/musician-hero-2.png" alt="" /></li>
         </ul>
     </div>
+    <div class="header-title">
     <h1><?php echo get_the_title(); ?></h1>
+    </div>
 </div>
 
 <div class="mission">

@@ -11,7 +11,9 @@
                     src="<?php echo get_template_directory_uri(); ?>/assets/img/musician-hero-1.png" alt="" /></li>
         </ul>
     </div>
+    <div class="header-title">
     <h1>Making the Sports & Entertainment Industry Accessible to you</h1>
+    </div>
 </div>
 
 <div class="in-brief">

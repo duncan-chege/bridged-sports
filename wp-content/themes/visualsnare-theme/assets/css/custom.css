@@ -83,7 +83,7 @@ small {
 
 .splide img {
     width: 100%;
-    height: clamp(40vh, 430px, 65vh);
+    height: clamp(50vh, 480px, 70vh);
     object-fit: cover;
 }
 
@@ -96,7 +96,7 @@ small {
     opacity: 1;
 }
 
-.splide h1 {
+.splide .header-title {
     position: absolute;
     top: 50%;
     left: 45%;
@@ -318,7 +318,7 @@ small {
 
 .vision-wave {
     position: absolute;
-    top: -1px;
+    top: -2px;
     width: 100%;
 }
 
