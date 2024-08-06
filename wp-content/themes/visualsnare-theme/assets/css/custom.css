@@ -61,6 +61,12 @@ small {
 
 /* NAVBAR */
 
+.navbar {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
 .main-logo {
     height: 30px;
 }
@@ -71,6 +77,11 @@ small {
 
 .nav-link {
     color: #fff !important;
+}
+
+.navbar-scrolled {
+    background-color: black !important;
+    transition: background-color 0.3s ease;
 }
 
 /* HOMEPAGE */
