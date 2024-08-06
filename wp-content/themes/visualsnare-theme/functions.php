@@ -14,7 +14,7 @@
         wp_enqueue_script( 'splide-fade', "//cdn.jsdelivr.net/npm/@splidejs/splide-extension-fade@0.3.1/dist/js/splide-extension-fade.min.js");
         wp_enqueue_script( 'popper','//cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js');
         wp_enqueue_script( 'bootstrap-js','//cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js' );
-        wp_enqueue_script( 'main-js', get_template_directory_uri() . '/assets/js/scripts.js', array('jquery'), null, true );
+        wp_enqueue_script( 'main-js', get_template_directory_uri() . '/assets/js/scripts.js', array('jquery'), '1.0', true );
     }
 
     add_action('wp_enqueue_scripts', 'main_files');
@@ -45,6 +45,8 @@
         return $classes;
     }
     add_filter( 'body_class', 'add_slug_body_class' );
+
+ 
 
 
 ?>

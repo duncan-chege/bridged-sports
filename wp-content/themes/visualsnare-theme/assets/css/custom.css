@@ -2,6 +2,10 @@ button {
     outline: none;
 }
 
+a {
+    color: inherit;
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -94,8 +98,9 @@ small {
 
 .splide img {
     width: 100%;
-    height: clamp(50vh, 480px, 70vh);
+    height: clamp(50vh, 520px, 75vh);
     object-fit: cover;
+    object-position: top;
 }
 
 .splide__slide {
@@ -289,7 +294,8 @@ small {
 
 /* ABOUT PAGE */
 
-.mission .bloc, .vision .bloc {
+.mission .bloc,
+.vision .bloc {
     display: grid;
     position: relative;
     z-index: -10;
@@ -378,6 +384,34 @@ small {
     width: min(270px, 100%);
     margin: 0 auto;
 }
+
+/* INSIGHTS PAGE */
+
+.blog-card {
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 4px #e7e7e7;
+    margin-bottom: 3em;
+}
+
+.blog-card img {
+    border-radius: 10px;
+    height: 270px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.blog-card .category {
+    font-size: .9rem;
+}
+
+.blog-card .excerpt {
+    color: var(--blue);
+}
+
+.blog-card .card-details {
+    padding: 5px 20px 2px;
+}
+
 
 /* FOOTER */
 

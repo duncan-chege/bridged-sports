@@ -23,7 +23,7 @@
                 <h2><span style="color: #9FB6BC">WE ARE</span><br> BRIDGED INTERNATIONAL</h2>
             </div>
             <div class="col-md-6 offset-md-2 text-center">
-                <div class="about splide">
+                <div class="home splide">
                     <div class="splide__track">
                         <ul class="splide__list">
                             <li class="splide__slide">
