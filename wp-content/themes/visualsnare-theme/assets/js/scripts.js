@@ -1,4 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
+
+    var navbar = document.querySelector(".navbar");
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 50) {
+            navbar.classList.add("navbar-scrolled");
+        } else {
+            navbar.classList.remove("navbar-scrolled");
+        }
+    });
+
     var hero_splide = new Splide('.home.splide', {
         type: 'fade',
         rewind: true,
@@ -11,18 +21,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     hero_splide.mount();
 
-    var navbar = document.querySelector(".navbar");
-    window.addEventListener("scroll", function() {
-        if (window.scrollY > 50) {
-            navbar.classList.add("navbar-scrolled");
-        } else {
-            navbar.classList.remove("navbar-scrolled");
-        }
-    });
-    
     var testimonial_splide = new Splide('.testimonials .splide', {
         type: "loop",
         pagination: false
-     });
-     testimonial_splide.mount();
+    });
+    testimonial_splide.mount();
 });

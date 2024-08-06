@@ -65,7 +65,11 @@
     }
 
     .founder div:nth-child(2) {
-        padding: 0 2em;
+        padding: 0 2rem 1rem;
+    }
+
+    .top-insight-bloc h1, .top-insight-bloc h6, .top-insight-bloc p {
+        text-align: left !important;
     }
 }
 

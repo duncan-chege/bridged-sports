@@ -34,7 +34,7 @@
                 } ?>
 
                         <h6> <?php the_title(); ?></h6>
-                        <p class="excerpt"> <?php echo wp_trim_words( get_the_content(), 16 ); ?> </p>
+                        <p class="excerpt"> <?php echo wp_trim_words(get_the_excerpt(), 16 ); ?> </p>
                     </div>
                 </a>
             </div>
