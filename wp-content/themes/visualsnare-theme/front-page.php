@@ -12,7 +12,7 @@
         </ul>
     </div>
     <div class="header-title">
-    <h1>Making the Sports & Entertainment Industry Accessible to you</h1>
+        <h1>Making the Sports & Entertainment Industry Accessible to you</h1>
     </div>
 </div>
 
@@ -20,7 +20,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <h2><span style="color: #9FB6BC">WE ARE</span><br> BRIDGED INTERNATIONAL</h2>
+                <h1><span style="color: #9FB6BC">WE ARE</span><br> BRIDGED</h1>
             </div>
             <div class="col-md-6 offset-md-2 text-center">
                 <div class="splide">
@@ -28,19 +28,18 @@
                         <ul class="splide__list">
                             <li class="splide__slide">
                                 <h5>Empowering Individuals</h5>
-                                <p class="fw-medium">Offering insights, resources, and networking opportunities to
-                                    help individuals
-                                    kickstart and advance their careers.</p>
+                                <p class="fw-medium">Offering insights, resources, and networking opportunities to help
+                                    individuals kickstart and advance their careers.</p>
                             </li>
                             <li class="splide__slide">
                                 <h5>Diversifying Talent Pools</h5>
-                                <p class="fw-medium">Providing sports and entertainment organisations
-                                    with a diverse pool of qualified candidates for recruitment.</p>
+                                <p class="fw-medium">Providing sports and entertainment organisations with a diverse
+                                    pool of qualified candidates for recruitment.</p>
                             </li>
                             <li class="splide__slide">
                                 <h5>Industry Accessibility</h5>
-                                <p class="fw-medium">Collaborating with leading sports and entertainment
-                                    organisations to make the industry more accessible and inclusive.</p>
+                                <p class="fw-medium">Collaborating with leading sports and entertainment organisations
+                                    to make the industry more accessible and inclusive.</p>
                             </li>
                         </ul>
                     </div>
@@ -59,30 +58,31 @@
         <div class="row">
             <div class="col-md-12">
                 <h2>A CAREER IN SPORTS AND ENTERTAINMENT</h2>
-                <h6>You can have a career in sports and entertainment. All
-                    you need is the right information, opportunities, and resources.</h6>
+                <h6>It is possible for you to have a career in sports and entertainment. All you need is the right
+                    information, opportunities, and resources.
+                </h6>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-4 py-3">
                 <h5>Industry Insights</h5>
-                <p>Helpful insights from those working in Sports and Entertainment on their current roles, experiences,
-                    and
-                    journeys in the industry.</p>
+                <p> Insights from those working in Sport and Entertainment on their career journeys, experiences, and
+                    current roles. </p>
                 <a href="#">Read</a>
                 <div class="vl"></div>
             </div>
             <div class="col-md-4 py-3">
                 <h5>Industry Resources</h5>
-                <p>Resources and information to help you better understand both industries including different types of
-                    roles, programs and opportunities available </p>
-                <a href="#">Read</a>
+                <p>Resources and information to help you better understand the industry, including different types of
+                    roles, programmes and opportunities available.
+                </p>
+                <a href="#">Learn</a>
             </div>
             <div class="col-md-4 pt-3">
                 <h5>Industry networking</h5>
-                <p>Build your network by connecting with professionals working in the industry</p>
-                <a href="#">Read</a>
+                <p>Begin to build your network by connecting with professionals working in the industry</p>
+                <a href="#">Connect</a>
             </div>
         </div>
     </div>
@@ -96,10 +96,10 @@
             </div>
             <div class="col-md-6 offset-md-1 d-flex flex-column justify-content-center align-items-center text-center">
                 <h2> THE BRIDGED COMMUNITY HUB </h2>
-                <p class="mt-3 mb-4"> It was created to support aspiring individuals from diverse and underrepresented
-                    backgrounds facing
-                    barriers to accessing and starting their careers in the sports industry. </p>
-                <a href="#">Join Us</a>
+                <p class="mt-3 mb-4"> Created to support aspiring individuals from diverse and underrepresented
+                    backgrounds who are facing barriers accessing and starting their careers in the sports industry.
+                </p>
+                <a href="#">Join The Hub</a>
             </div>
         </div>
     </div>
@@ -112,8 +112,8 @@
     <div class="bloc">
         <div class="bloc-img"></div>
         <div class="d-flex flex-column justify-content-center align-items-center text-center">
-            <h2>NEED WORK?</h2>
-            <a href="#">View Jobs Board</a>
+            <h2>LOOKING FOR YOUR NEXT ROLE?</h2>
+            <a href="#">View Jobs</a>
         </div>
     </div>
 </div>
@@ -152,8 +152,7 @@
                         </p>
                         <small class="fw-bold">
                             Ian Tze Yang Hing</small><br>
-                        <small>Sports Business Management student at Leeds Beckett University
-                        </small>
+                        <small>Sports Business Management Student, Leeds Beckett University</small>
                     </div>
                 </li>
             </ul>
