@@ -21,6 +21,18 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     hero_splide.mount();
 
+    var in_brief = new Splide('.in-brief .splide', {
+        type: 'fade',
+        rewind: true,
+        pagination: false,
+        arrows: false,
+        autoplay: true,
+        interval: 3000,
+        pauseOnHover: false,
+        pauseOnFocus: false,
+    });
+    in_brief.mount();
+
     var testimonial_splide = new Splide('.testimonials .splide', {
         type: "loop",
         pagination: false

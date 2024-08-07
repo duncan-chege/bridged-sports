@@ -148,6 +148,8 @@ small {
     border-radius: 7px;
     color: #fff;
     font-size: 15px;
+    margin-top: 1em;
+    display: inline-block;
 }
 
 .career-section {
