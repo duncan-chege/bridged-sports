@@ -1,15 +1,15 @@
 <?php get_header(); ?>
 
-<div class="top-insight-bloc">
+<div class="top-resource-bloc">
 <div></div>
-<div class="container">
+    <div class="container">
         <div class="row">
             <div class="col-lg-4">
                 <div class="post-thumbnail">
                     <?php the_post_thumbnail('large'); ?>
                 </div>
             </div>
-            <div class="col-lg-8 py-3 d-flex flex-column justify-content-center">
+            <div class="col-lg-8 py-3">
 
                 <?php $categories = get_the_category();
                 if (!empty($categories)) {

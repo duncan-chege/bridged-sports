@@ -446,20 +446,28 @@ small {
     background-color: #71B9F3;
 }
 
-.insight-vector {
-    width: 100%;
+.top-insight-bloc>div:first-child, .top-resource-bloc>div:first-child{
+    background-image: url('../img/insight-vector.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
 }
 
-.top-insight-bloc img {
-    height: 250px;
-    object-fit: cover;
+.top-insight-bloc img, .top-resource-bloc img  {
+    object-fit: contain;
     width: 100%;
-    border-radius: 10px;
+    height: 20rem;
+    text-align: center;
 }
 
-.top-insight-bloc .container {
-    margin-top: -2rem;
-    padding-bottom: 2rem;
+.top-insight-bloc .container, .top-resource-bloc .container {
+    padding-bottom: 1rem;
+}
+
+/* SINGLE RESOURCE PAGE */
+
+.top-resource-bloc {
+    background-color: var(--yellow);
 }
 
 /* FOOTER */

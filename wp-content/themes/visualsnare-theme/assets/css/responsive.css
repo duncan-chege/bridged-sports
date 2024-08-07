@@ -68,9 +68,13 @@
         padding: 0 2rem 1rem;
     }
 
-    .top-insight-bloc h1, .top-insight-bloc h6, .top-insight-bloc p {
+    .top-insight-bloc h1, .top-insight-bloc h6, .top-insight-bloc p, .top-resource-bloc h1, .top-resource-bloc h6, .top-resource-bloc p {
         text-align: left !important;
     }
+
+    .top-insight-bloc>div:first-child, .top-resource-bloc>div:first-child{
+        height: 150px;
+    }   
 }
 
 /* 
@@ -124,5 +128,5 @@
     .footer-links {
         flex-direction: column;
         margin-top: 1.5em;
-    }
+    } 
 }
