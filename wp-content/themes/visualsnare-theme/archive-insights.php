@@ -17,31 +17,84 @@
     </div>
 </div>
 
-<div class="container">
-    <div class="row">
-        <?php while(have_posts()){ the_post(); ?>
-        <div class="col-lg-4 col-md-6">
-            <div class="blog-card">
-                <div class="post-thumbnail">
-                    <?php the_post_thumbnail(); ?>
-                </div>
-                <a href="<?php echo get_the_permalink(); ?>">
-                    <div class="card-details">
+<div class="container mt-3">
+    <!-- Tab Navigation -->
+    <nav class="category nav nav-pills" id="blogTabs" role="tablist">
+            <a class="nav-link active" id="all-tab" data-bs-toggle="tab" href="#all" role="tab" aria-controls="all"
+                aria-selected="true">All</a>
+        <?php
+      $categories = get_categories();
+      foreach ($categories as $category) {
+        if ($category->slug !== 'uncategorized'){   // Skip the "Uncategorized" category
+        echo ' <a class="nav-link" id="'.esc_attr($category->slug).'-tab" data-bs-toggle="tab" href="#'.esc_attr($category->slug).'" role="tab" aria-controls="'.esc_attr($category->slug).'" aria-selected="false">'.esc_html($category->name).'</a>';
+      }
+    }
+      ?>
+    </nav>
 
-                        <?php $categories = get_the_category();
-                if (!empty($categories)) {
-                    echo '<p class="category mt-2 mb-1">' . esc_html($categories[0]->name) . '</p>';
-                } ?>
-
-                        <h6> <?php the_title(); ?></h6>
-                        <p class="excerpt"> <?php echo wp_html_excerpt(get_the_excerpt(), 85, '...' ); ?> </p>
+    <!-- Tab Content -->
+    <div class="tab-content" id="blogTabsContent">
+        <div class="row">
+            <?php 
+          $all_posts = new WP_Query(array('post_type' => 'insights'));
+          while($all_posts->have_posts()){ 
+          $all_posts->the_post(); 
+          $post_categories = get_the_category();
+          $category_classes = '';
+          foreach ($post_categories as $post_category) {
+            if ($post_category->slug !== 'uncategorized'){  // Skip the "Uncategorized" category
+            $category_classes .= esc_attr($post_category->slug) . ' ';
+          }
+        }
+        ?>
+            <div class="col-lg-4 col-md-6 <?php echo $category_classes; ?>">
+                <div class="blog-card">
+                    <div class="post-thumbnail">
+                        <?php the_post_thumbnail(); ?>
                     </div>
-                </a>
+                    <a href="<?php echo get_the_permalink(); ?>">
+                        <div class="card-details">
+                            <?php $categories = get_the_category(); 
+                if (!empty($categories)) { 
+                  echo '<p class="category mt-2 mb-1">' . esc_html($categories[0]->name) . '</p>'; 
+                } 
+              ?>
+                            <h6><?php the_title(); ?></h6>
+                            <p class="excerpt"><?php echo wp_html_excerpt(get_the_excerpt(), 85, '...' ); ?></p>
+                        </div>
+                    </a>
+                </div>
             </div>
+            <?php } wp_reset_postdata(); ?>
         </div>
-        <?php } ?>
     </div>
 </div>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var tabs = document.querySelectorAll('#blogTabs a');
+        var cards = document.querySelectorAll('.tab-content .row>div');
+
+        tabs.forEach(function (tab) {
+            tab.addEventListener('shown.bs.tab', function (event) {
+                var selectedCategory = event.target.getAttribute('href').substring(1);
+
+                cards.forEach(function (card) {
+                    if (selectedCategory === 'all') {
+                        card.classList.add('active');
+                    } else {
+                        card.classList.toggle('active', card.classList.contains(
+                            selectedCategory));
+                    }
+                });
+            });
+        });
+
+        // Show all cards by default
+        cards.forEach(function (card) {
+            card.classList.add('active');
+        });
+    });
+</script>
 
 <?php get_footer(); ?>

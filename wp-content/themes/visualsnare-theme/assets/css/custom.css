@@ -355,14 +355,14 @@ small {
 .founder {
     margin: 4rem 0 0 0;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1.5fr 3fr;
 }
 
 .founder div:first-child {
     background: url(../img/full-ella.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position: left top;
 }
 
 .founder h2 {
@@ -391,6 +391,29 @@ small {
 }
 
 /* INSIGHTS PAGE */
+
+.category.nav-pills {
+    justify-content: space-evenly;
+    width: min(500px, 100%);
+    margin: 0 auto 2rem;
+}
+
+.category .active {
+    background-color: var(--blue) !important;
+}
+
+.category .nav-link:not(.active) {
+    background: #E3E2E2;
+    color: #686868 !important;
+}
+
+.tab-content .row>div.active {
+    display: block;
+}
+
+.tab-content .row>div {
+    display: none;
+}
 
 .blog-card {
     border-radius: 10px;

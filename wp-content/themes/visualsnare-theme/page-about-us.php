@@ -69,16 +69,16 @@ get_header(); ?>
             </div>
             <div class="col-md-4 text-center my-3">
             <div class="card">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ella-ireri.png" alt="" class="card-img-top" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mweni-photo.png" alt="" class="card-img-top" />
                     <div class="card-body">
-                        <h5 class="card-title"> Ella Ireri </h5>
-                        <p class="card-text"> Founder </p>
+                        <h5 class="card-title"> Mweni Chola </h5>
+                        <p class="card-text"> Social Media & Content Writer </p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 text-center my-3">
             <div class="card">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ella-ireri.png" alt="" class="card-img-top" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img//ella-ireri-headshot.jpg" alt="" class="card-img-top" />
                     <div class="card-body">
                         <h5 class="card-title"> Ella Ireri </h5>
                         <p class="card-text"> Founder </p>
