@@ -102,7 +102,7 @@ small {
 
 .splide img {
     width: 100%;
-    height: clamp(50vh, 520px, 75vh);
+    height: clamp(50vh, 590px, 85vh);
     object-fit: cover;
     object-position: top;
 }
@@ -118,9 +118,9 @@ small {
 
 .splide .header-title {
     position: absolute;
-    top: 50%;
+    top: 56%;
     left: 45%;
-    transform: translate(-45%, -50%);
+    transform: translate(-45%, -56%);
     margin: 0;
     color: #fff;
     text-align: center;
