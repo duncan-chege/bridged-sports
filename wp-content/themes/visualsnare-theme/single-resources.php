@@ -18,6 +18,16 @@
 
                 <h1> <?php the_title(); ?></h1>
                 <p class="excerpt"> <?php echo get_the_excerpt(); ?> </p>
+
+                <?php
+                    // Retrieve the post content and excerpt
+                    $content = get_the_content();
+                    $excerpt = get_the_excerpt();
+
+                    // Calculate and display the reading time
+                    $reading_time = calculate_reading_time($content, $excerpt);
+                    echo '<p>' . esc_html($reading_time) . '</p>';
+                ?>
             </div>
         </div>
     </div>

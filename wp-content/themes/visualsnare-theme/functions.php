@@ -46,7 +46,20 @@
     }
     add_filter( 'body_class', 'add_slug_body_class' );
 
- 
+    // Minutes Taken To Read Article
 
-
+    function calculate_reading_time($content, $excerpt) {
+        // Average reading speed (words per minute)
+        $words_per_minute = 200; // Adjust this value as needed
+    
+        // Combine content and excerpt, and calculate the word count
+        $combined_text = $content . ' ' . $excerpt;
+        $word_count = str_word_count(strip_tags($combined_text));
+    
+        // Calculate reading time
+        $reading_time = ceil($word_count / $words_per_minute);
+    
+        // Return formatted reading time
+        return $reading_time . ' Mins Read';
+    }    
 ?>
