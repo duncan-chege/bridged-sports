@@ -434,10 +434,11 @@ small {
 
 .blog-card .excerpt {
     color: var(--blue);
+    font-size: .98rem;
 }
 
 .blog-card .card-details {
-    padding: 5px 20px 2px;
+    padding: 5px 10px 10px 20px;
 }
 
 /* SINGLE INSIGHT */
@@ -446,21 +447,24 @@ small {
     background-color: #71B9F3;
 }
 
-.top-insight-bloc>div:first-child, .top-resource-bloc>div:first-child{
+.top-insight-bloc>div:first-child,
+.top-resource-bloc>div:first-child {
     background-image: url('../img/insight-vector.svg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
 }
 
-.top-insight-bloc img, .top-resource-bloc img  {
+.top-insight-bloc img,
+.top-resource-bloc img {
     object-fit: contain;
     width: 100%;
     height: 20rem;
     text-align: center;
 }
 
-.top-insight-bloc .container, .top-resource-bloc .container {
+.top-insight-bloc .container,
+.top-resource-bloc .container {
     padding-bottom: 1rem;
 }
 
@@ -468,6 +472,24 @@ small {
 
 .top-resource-bloc {
     background-color: var(--yellow);
+}
+
+/* NETWORK PAGE */
+
+.network-card {
+    margin-bottom: 3em;
+}
+
+.network-card img {
+    border-radius: 10px;
+    height: 270px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.network-title p{
+    margin: 0;
+    color: var(--blue);
 }
 
 /* FOOTER */

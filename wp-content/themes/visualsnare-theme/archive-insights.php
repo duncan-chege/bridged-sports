@@ -34,7 +34,7 @@
 
     <!-- Tab Content -->
     <div class="tab-content" id="blogTabsContent">
-        <div class="row">
+        <div class="row gx-5">
             <?php 
           $all_posts = new WP_Query(array('post_type' => 'insights'));
           while($all_posts->have_posts()){ 
