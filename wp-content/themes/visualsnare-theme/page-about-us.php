@@ -7,10 +7,10 @@ get_header(); ?>
 <div class="home splide" role="group" aria-label="Homepage Splide">
     <div class="splide__track">
         <ul class="splide__list">
-            <li class="splide__slide"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/athlete-hero.png"
+            <li class="splide__slide"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/sport-photographer.png"
                     alt="" /></li>
             <li class="splide__slide"><img
-                    src="<?php echo get_template_directory_uri(); ?>/assets/img/musician-hero-2.png" alt="" /></li>
+                    src="<?php echo get_template_directory_uri(); ?>/assets/img/party-goers.png" alt="" /></li>
         </ul>
     </div>
     <div class="header-title">

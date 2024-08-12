@@ -6,9 +6,9 @@
     <div class="splide__track">
         <ul class="splide__list">
             <li class="splide__slide"><img
-                    src="<?php echo get_template_directory_uri(); ?>/assets/img/footballer-hero.png" alt="" /></li>
+                    src="<?php echo get_template_directory_uri(); ?>/assets/img/f1-hero.jpg" alt="" /></li>
             <li class="splide__slide"><img
-                    src="<?php echo get_template_directory_uri(); ?>/assets/img/musician-hero-1.png" alt="" /></li>
+                    src="<?php echo get_template_directory_uri(); ?>/assets/img/cheering-crowd-concert.png" alt="" /></li>
         </ul>
     </div>
     <div class="header-title">

@@ -3,10 +3,10 @@
 <div class="home splide" role="group" aria-label="Homepage Splide">
     <div class="splide__track">
         <ul class="splide__list">
-            <li class="splide__slide"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/formula-1.png"
+            <li class="splide__slide"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tennis-items.png"
                     alt="" /></li>
             <li class="splide__slide"><img
-                    src="<?php echo get_template_directory_uri(); ?>/assets/img/musician-hero-3.png" alt="" /></li>
+                    src="<?php echo get_template_directory_uri(); ?>/assets/img/press-mic.png" alt="" /></li>
         </ul>
     </div>
     <div class="header-title">
