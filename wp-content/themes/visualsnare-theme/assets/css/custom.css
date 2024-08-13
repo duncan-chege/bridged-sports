@@ -71,6 +71,33 @@ small {
     width: 100%;
 }
 
+.navbar ul li a {
+    position: relative;
+}
+
+.navbar ul li a::after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #fff;
+  height: 2px;
+}
+
+.navbar ul li a,
+.navbar ul li a::after,
+.navbar ul li a::before {
+  transition: linear .3s;
+}
+
+.navbar ul li a:hover::after {
+    width: 100%;
+}
+
 .single .navbar {
     background-color: #000;
 }
@@ -153,6 +180,23 @@ small {
     display: inline-block;
 }
 
+.in-brief a:hover, .career-section a:hover, .community-section a:hover, .need-work a:hover, .instagram a:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    70% {
+        transform: scale(.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 .career-section {
     background: url('../img/footballer-feet.png');
     background-size: cover;
@@ -224,13 +268,13 @@ small {
 .need-work svg {
     position: absolute;
     top: 0;
+    z-index: 10;
 }
 
 .need-work .bloc {
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: relative;
-    z-index: -10;
 }
 
 .need-work .bloc-img {
@@ -243,7 +287,7 @@ small {
     background-color: var(--yellow);
 }
 
-.bloc a {
+.need-work a {
     background: #000;
     padding: 8px 17px;
     border-radius: 7px;
@@ -420,6 +464,12 @@ small {
     border-radius: 10px;
     box-shadow: 1px 1px 8px 4px #e7e7e7;
     margin-bottom: 3em;
+    transition: linear .3s;
+}
+
+.blog-card:hover, .blog-card:focus {
+    box-shadow: 1px 2px 9px 3px #04487854;
+    transform: translateY(-0.5em);
 }
 
 .blog-card img {
@@ -546,6 +596,12 @@ small {
     border: 2px solid #3172a5 !important;
 }
 
+.forminator-row button {
+    background-color: var(--blue) !important;
+    display: block !important;
+    margin: 0 auto !important;
+}
+
 
 /* FOOTER */
 
@@ -556,10 +612,17 @@ small {
     width: 100%;
 }
 
-footer a {
+footer a:not(.footer-socials a) {
     color: #fff;
     border-bottom: 1px solid;
     padding-bottom: 5px;
     width: fit-content;
     margin: .3rem;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    margin: .5rem 0;
 }

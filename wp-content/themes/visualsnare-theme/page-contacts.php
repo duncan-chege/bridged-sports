@@ -29,9 +29,9 @@
                 <div class="social-media-bloc">
                     <h4>Follow Our Social Media</h4>
                     <div>
-                        <i class="bi bi-linkedin"></i>
-                        <i class="bi bi-instagram"></i>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/tiktok-icon.svg" alt="" />
+                        <a href="https://www.linkedin.com/company/bridged-international/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.instagram.com/bridgedinternational/" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@bridgedinternational" target="_blank"><img class="mt-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/tiktok-icon.svg" alt="" /></a>
                     </div>
                 </div>
             </div>
