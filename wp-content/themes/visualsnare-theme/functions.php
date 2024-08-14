@@ -9,7 +9,7 @@
         wp_enqueue_style('responsive-style',  get_template_directory_uri().'/assets/css/responsive.css');
         wp_enqueue_style('main-css', get_stylesheet_uri());
     
-        wp_enqueue_script( 'jQuery','//code.jquery.com/jquery-3.2.1.slim.min.js', array('jquery'));
+        wp_enqueue_script( 'jQuery','//code.jquery.com/jquery-3.7.1.min.js', array('jquery'));
         wp_enqueue_script( 'splide-js', '//cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js');
         wp_enqueue_script( 'splide-fade', "//cdn.jsdelivr.net/npm/@splidejs/splide-extension-fade@0.3.1/dist/js/splide-extension-fade.min.js");
         wp_enqueue_script( 'popper','//cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js');
