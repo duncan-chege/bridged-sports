@@ -698,6 +698,8 @@ input#is-search-input-143, input#is-search-input-143::placeholder {
     color: #fff;
     padding: .5rem;
     font-size: 1.1rem;
+    display: flex;
+    align-items: baseline;
 }
  
 i.bi.bi-circle-fill {
