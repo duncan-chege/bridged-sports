@@ -643,7 +643,7 @@ input#is-search-input-143, input#is-search-input-143::placeholder {
     background-color: var(--blue) !important;
     display: block !important;
     margin: 0 auto !important;
-    color: #fff;
+    color: #fff !important;
 }
 
 /* SEARCH PAGE */
