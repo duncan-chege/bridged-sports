@@ -10,7 +10,7 @@
 
             <div class="col-md-9">
                 <div class="footer-links d-flex flex-wrap justify-content-between">
-                    <a href="#">Community Hub</a>
+                    <a href="<?php echo home_url(); ?>/community-hub">Community Hub</a>
                     <a href="#">Jobs Board</a>
                     <a href="#">Projects</a>
                     <a href="#">Contact Us</a>

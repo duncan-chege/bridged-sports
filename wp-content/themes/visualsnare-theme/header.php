@@ -31,7 +31,7 @@
                                 'menu_class' => '',
                                 'fallback_cb' => '__return_false',
                                 'items_wrap' => '<ul class="navbar-nav mb-2 mb-md-0">%3$s</ul>',
-                                'depth' => 2,
+                                'depth' => 3,
                                 'walker' => new bootstrap_5_wp_nav_menu_walker()
                             ));
             ?>

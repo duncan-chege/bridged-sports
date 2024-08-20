@@ -76,7 +76,7 @@ small {
     width: fit-content;
 }
 
-.navbar ul li a::after, .navbar ul li a.active::after {
+.navbar ul li a:not(.dropdown-toggle)::after, .navbar ul li a.active:not(.dropdown-toggle)::after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -90,13 +90,22 @@ small {
 }
 
 .navbar ul li a,
-.navbar ul li a::after,
+.navbar ul li a:not(.dropdown-toggle)::after,
 .navbar ul li a::before {
     transition: linear .3s;
 }
 
-.navbar ul li a:hover::after, .navbar ul li a.active::after {
+.navbar ul li a:not(.dropdown-toggle):hover::after, .navbar ul li a.active:not(.dropdown-toggle)::after {
     width: 100%;
+}
+
+.nav-link.dropdown-toggle {
+    cursor: pointer;
+}
+
+.navbar-nav .dropdown-item.active {
+    background-color: #000;
+    color: #fff;
 }
 
 .single .navbar, .search .navbar {
@@ -109,6 +118,7 @@ small {
 
 .navbar-nav li {
     padding: 0 1rem;
+    width: fit-content;
 }
 
 .nav-link {
@@ -149,7 +159,7 @@ input#is-search-input-143, input#is-search-input-143::placeholder {
     z-index: -10;
 }
 
-.splide img {
+.splide img:not(.scribbly-line){
     width: 100%;
     height: clamp(50vh, 590px, 85vh);
     object-fit: cover;
@@ -206,7 +216,9 @@ input#is-search-input-143, input#is-search-input-143::placeholder {
 .career-section a:hover,
 .community-section a:hover,
 .need-work a:hover,
-.instagram a:hover {
+.instagram a:hover,
+.member-benefits button:not(.btn-close):hover,
+.work-with a:hover {
     animation: pulse 1s infinite;
     transition: .3s;
 }
@@ -252,7 +264,7 @@ input#is-search-input-143, input#is-search-input-143::placeholder {
     color: #fff;
 }
 
-.career-section a {
+.career-section a, .member-benefits button:not(.btn-close) {
     background: var(--yellow);
     padding: 8px 15px;
     border-radius: 7px;
@@ -617,7 +629,7 @@ input#is-search-input-143, input#is-search-input-143::placeholder {
     border-radius: 10px;
 }
 
-.forminator-row label {
+.forminator-label {
     color: var(--blue) !important;
 }
 
@@ -653,6 +665,153 @@ input#is-search-input-143, input#is-search-input-143::placeholder {
     height: 100px;
     object-fit: cover;
 }
+
+
+/* COMMUNITY HUB */
+
+.brief-summary img {
+    width: 100%;
+}
+
+.brief-summary p {
+    font-size: 1.2rem;
+    color: var(--blue);
+    font-weight: 600;
+}
+
+.member-benefits {
+    background: #000 url(../img/hub-members.jpg) no-repeat center/cover;
+    padding: 3rem;
+    margin: 3rem 0;
+}
+
+.member-benefits h2{
+    color: var(--yellow);
+}
+
+.member-benefits ul{
+    list-style-type: none;
+}
+
+.member-benefits li {
+    color: #fff;
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+ 
+i.bi.bi-circle-fill {
+    font-size: 0.6rem;
+    padding-right: 1rem;
+    bottom: 3px;
+    position: relative;
+}
+
+.work-with {
+    color: var(--blue);
+}
+
+.fuse-bloc {
+    background: rgba(113, 185, 243, 0.36);
+    margin-bottom: 4rem;
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.fuse-bloc h5 {
+    text-align: center;
+    padding: 2rem 0 0rem;
+}
+
+.fuse-bloc p {
+    padding: 1rem 3rem 0;
+}
+
+.circle {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #bde1f3;
+    clip-path: circle(40% at left);
+    z-index: -1;
+    position: absolute;
+}
+
+.fuse-bloc a {
+    margin: 0 auto;
+    width: fit-content;
+    display: block;
+    background: var(--yellow);
+    padding: 8px 15px;
+    border-radius: 7px;
+    color: #000;
+}
+
+.hub-contact {
+    background: var(--blue);
+    padding: 3rem 0;
+}
+
+.hub-contact h2{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.hub-contact button.active {
+    background: #fff;
+    color: var(--blue);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.hub-contact button {
+    background: var(--blue);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.hub-contact .tab-pane {
+    margin: 1rem;
+}
+
+.hub-form-bloc .forminator-row label {
+    color: #fff !important;
+}
+
+.forminator-file-upload button {
+    background-color: #fff !important;
+    color: var(--blue) !important;
+    margin: 10px 10px 0 0 !important;
+}
+
+.forminator-file-upload > span {
+    color: #fff !important;
+}
+
+.hub-contact .forminator-row button {
+    background-color: #fff !important;
+    color: var(--blue) !important;
+}
+
+.work-with img {
+    width: min(250px, 100%);
+    text-align: center;
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+.modal-content p {
+    font-size: .9rem;
+}
+
+.forminator-checkbox__wrapper {
+    margin-top: .8rem;
+}
+
 
 /* FOOTER */
 

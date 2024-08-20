@@ -75,6 +75,14 @@
     .top-insight-bloc>div:first-child, .top-resource-bloc>div:first-child{
         height: 150px;
     }   
+
+    .member-benefits {
+        padding: 3em 0;
+    }
+
+    .member-benefits ul {
+        padding-left: 1rem;
+    }
 }
 
 /* 
