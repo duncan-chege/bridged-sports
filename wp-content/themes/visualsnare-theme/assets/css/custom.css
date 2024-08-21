@@ -1,5 +1,6 @@
 button {
     outline: none;
+    border: none;
 }
 
 a {
@@ -214,7 +215,7 @@ input#is-search-input-143, input#is-search-input-143::placeholder {
 
 .in-brief a:hover,
 .career-section a:hover,
-.community-section a:hover,
+.community-section button:hover,
 .need-work a:hover,
 .instagram a:hover,
 .member-benefits button:not(.btn-close):hover,
@@ -291,7 +292,7 @@ input#is-search-input-143, input#is-search-input-143::placeholder {
     width: 100%;
 }
 
-.community-section a {
+.community-section button:not(.btn-close) {
     background: var(--blue);
     padding: 8px 17px;
     border-radius: 7px;

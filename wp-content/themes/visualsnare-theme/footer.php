@@ -13,7 +13,7 @@
                     <a href="<?php echo home_url(); ?>/community-hub">Community Hub</a>
                     <a href="#">Jobs Board</a>
                     <a href="#">Projects</a>
-                    <a href="#">Contact Us</a>
+                    <a href="<?php echo home_url(); ?>/contacts">Contacts</a>
                 </div>
                 <div class="footer-socials">
                     <a href="https://www.linkedin.com/company/bridged-international/" target="_blank"><i class="bi bi-linkedin" style="font-size: 1.8rem;"></i></a>

@@ -5,10 +5,11 @@
 <div class="home splide" role="group" aria-label="Homepage Splide">
     <div class="splide__track">
         <ul class="splide__list">
+            <li class="splide__slide"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/f1-hero.jpg"
+                    alt="" /></li>
             <li class="splide__slide"><img
-                    src="<?php echo get_template_directory_uri(); ?>/assets/img/f1-hero.jpg" alt="" /></li>
-            <li class="splide__slide"><img
-                    src="<?php echo get_template_directory_uri(); ?>/assets/img/cheering-crowd-concert.png" alt="" /></li>
+                    src="<?php echo get_template_directory_uri(); ?>/assets/img/cheering-crowd-concert.png" alt="" />
+            </li>
         </ul>
     </div>
     <div class="header-title">
@@ -99,7 +100,28 @@
                 <p class="mt-3 mb-4"> Created to support aspiring individuals from diverse and underrepresented
                     backgrounds who are facing barriers accessing and starting their careers in the sports industry.
                 </p>
-                <a href="#">Join The Hub</a>
+                <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Join The Hub
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content text-start">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Bridged Community Sign Up Form</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <p class="mx-3 mt-3 mb-0">Supporting individuals from diverse and underrepresented
+                                backgrounds who are facing
+                                barriers breaking into the sports and entertainment industry</p>
+                            <div class="modal-body">
+                                <?php echo do_shortcode('[forminator_form id="151"]'); ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
