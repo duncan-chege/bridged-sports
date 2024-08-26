@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php
+
+  /*Template Name: Contact Us Page*/  
+
+get_header(); ?>
 
 <div class="home splide" role="group" aria-label="Homepage Splide">
     <div class="splide__track">
