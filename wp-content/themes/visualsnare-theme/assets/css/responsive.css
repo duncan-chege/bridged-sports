@@ -50,7 +50,7 @@
         display: none;
     }
 
-    .mission .bloc div:nth-child(1), .vision .bloc div:nth-child(2) {
+    .mission .bloc div:nth-child(1) {
         padding: 3.5rem 2rem;
     }
 

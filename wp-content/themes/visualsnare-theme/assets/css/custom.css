@@ -386,8 +386,7 @@ input#is-search-input-143, input#is-search-input-143::placeholder {
 
 /* ABOUT PAGE */
 
-.mission .bloc,
-.vision .bloc {
+.mission .bloc {
     display: grid;
     position: relative;
     z-index: -10;
@@ -395,47 +394,32 @@ input#is-search-input-143, input#is-search-input-143::placeholder {
 }
 
 .mission .bloc-img {
-    background: url(../img/tennis-player.png);
+    background: url(../img/f1-mechanic.jpg);
     background-size: cover;
     background-position-y: 95%;
     background-position-x: 35%;
 }
 
-.mission .bloc div:nth-child(1),
-.vision .bloc div:nth-child(2) {
+.mission .bloc div:nth-child(1) {
     background-color: var(--blue);
-    padding: 8rem;
+    padding: 8rem 4rem;
 }
 
-.mission .bloc h2,
-.vision .bloc h2 {
+.mission .bloc h2 {
     color: var(--yellow);
     text-align: center;
 }
 
-.mission .bloc p,
-.vision .bloc p {
+.mission .bloc p {
     color: #fff;
-    margin: 1rem 0
+    margin: 1rem 0;
+    font-size: 1.2rem;
 }
 
 .mission-wave {
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     width: 100%;
-}
-
-.vision-wave {
-    position: absolute;
-    top: -2px;
-    width: 100%;
-}
-
-.vision .bloc-img {
-    background: url(../img/rapper.png);
-    background-size: cover;
-    background-position-y: 95%;
-    background-position-x: 35%;
 }
 
 .founder {
