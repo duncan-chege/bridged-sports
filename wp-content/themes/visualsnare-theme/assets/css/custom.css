@@ -187,8 +187,10 @@ input#is-search-input-143, input#is-search-input-143::placeholder {
     width: 70%;
 }
 
-.in-brief {
-    margin-bottom: 3rem;
+.in-brief h1 {
+    font-size: clamp(3rem, 5vw, 6rem);
+    padding-bottom: 1rem;
+    line-height: .8;
 }
 
 .in-brief h2 {
@@ -271,8 +273,6 @@ input#is-search-input-143, input#is-search-input-143::placeholder {
     border-radius: 7px;
     color: #000;
     font-size: 15px;
-    margin: .5rem 0;
-    display: inline-block;
 }
 
 .career-section .col-md-4:first-of-type {

@@ -66,26 +66,29 @@
         </div>
 
         <div class="row">
-            <div class="col-md-4 py-3">
-                <h5>Industry Insights</h5>
-                <p> Insights from those working in Sport and Entertainment on their career journeys, experiences, and
-                    current roles. </p>
-                <a href="<?php echo home_url(); ?>/insights">Read</a>
-                <div class="vl"></div>
-            </div>
-            <div class="col-md-4 py-3">
-                <h5>Industry Resources</h5>
-                <p>Resources and information to help you better understand the industry, including different types of
-                    roles, programmes and opportunities available.
-                </p>
-                <a href="<?php echo home_url(); ?>/resources">Learn</a>
-            </div>
-            <div class="col-md-4 pt-3">
-                <h5>Industry networking</h5>
-                <p>Begin to build your network by connecting with professionals working in the industry</p>
-                <a href="<?php echo home_url(); ?>/networks">Connect</a>
-            </div>
+    <div class="col-md-4 d-flex flex-column pt-3">
+        <h5>Industry Insights</h5>
+        <p class="mb-4">Insights from those working in Sport and Entertainment on their career journeys, experiences, and current roles.</p>
+        <div class="mt-auto">
+            <a href="<?php echo home_url(); ?>/insights">Read</a>
         </div>
+    </div>
+    <div class="col-md-4 d-flex flex-column pt-3">
+        <h5>Industry Resources</h5>
+        <p class="mb-4">Resources and information to help you better understand the industry, including different types of roles, programmes and opportunities available.</p>
+        <div class="mt-auto">
+            <a href="<?php echo home_url(); ?>/resources">Learn</a>
+        </div>
+    </div>
+    <div class="col-md-4 d-flex flex-column pt-3">
+        <h5>Industry Networking</h5>
+        <p class="mb-4">Begin to build your network by connecting with professionals working in the industry.</p>
+        <div class="mt-auto">
+            <a href="<?php echo home_url(); ?>/networks">Connect</a>
+        </div>
+    </div>
+</div>
+
     </div>
 </div>
 
