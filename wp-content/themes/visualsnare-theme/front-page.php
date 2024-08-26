@@ -99,9 +99,9 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/community-connect.jpg" alt="" />
             </div>
             <div class="col-md-6 offset-md-1 d-flex flex-column justify-content-center align-items-center text-center">
-                <h2> THE BRIDGED COMMUNITY HUB </h2>
+                <h2> BRIDGED COMMUNITY HUB </h2>
                 <p class="mt-3 mb-4"> Created to support aspiring individuals from diverse and underrepresented
-                    backgrounds who are facing barriers accessing and starting their careers in the sports industry.
+                    backgrounds who are facing barriers accessing and starting their careers in the sports and entertainment industry.
                 </p>
                 <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Join The Hub
@@ -156,7 +156,7 @@
                             agency.
                         </p>
                         <small class="fw-bold">Stephanie Kibet</small><br>
-                        <small>Global partnerships operation, IMG Football events</small>
+                        <small>Global Partnerships Operation, IMG Football Events</small>
                     </div>
                 </li>
                 <li class="splide__slide">
