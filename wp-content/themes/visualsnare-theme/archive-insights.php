@@ -11,9 +11,7 @@
     </div>
     <div class="header-title">
         <h1>Industry Insights</h1>
-        <h6>Insights from those working in Sports and Entertainment on their current roles, experiences, and journeys in
-            the
-            industry.</h6>
+        <h6>Insights from those working in Sports and Entertainment on their current roles and experiences in the industry</h6>
     </div>
 </div>
 

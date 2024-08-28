@@ -11,7 +11,7 @@
     </div>
     <div class="header-title">
         <h1>Industry Resources</h1>
-        <h6>Resources and information to help you better understand the industries, including the different types of
+        <h6>Resources and information to help you better understand the industry, including the different types of
             roles, programmes and opportunities available to you.</h6>
     </div>
 </div>

@@ -517,6 +517,10 @@ input#is-search-input-143::placeholder {
     width: 100%;
 }
 
+.post-type-archive-resources img {
+    object-position: center -50px;
+}
+
 .blog-card .category {
     font-size: .9rem;
 }
@@ -678,7 +682,7 @@ input#is-search-input-143::placeholder {
 }
 
 .member-benefits {
-    background: #000 url(../img/hub-members.jpg) no-repeat center/cover;
+    background: #000 url(../img/community-hands.jpg) no-repeat center/cover;
     padding: 3rem;
     margin: 3rem 0;
 }

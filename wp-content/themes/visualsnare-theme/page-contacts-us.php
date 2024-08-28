@@ -8,7 +8,7 @@ get_header(); ?>
     <div class="splide__track">
         <ul class="splide__list">
             <li class="splide__slide"><img
-                    src="<?php echo get_template_directory_uri(); ?>/assets/img/man-woman-exercising.png" alt="" /></li>
+                    src="<?php echo get_template_directory_uri(); ?>/assets/img/football-in-field.jpg" alt="" /></li>
             <li class="splide__slide"><img
                     src="<?php echo get_template_directory_uri(); ?>/assets/img/sports-broadcaster.png" alt="" />
             </li>
@@ -17,7 +17,7 @@ get_header(); ?>
     <div class="header-title">
         <h1>Contact Us</h1>
         <h6>Please get in touch with us if you have any questions or would like to contribute as someone working in the
-            industry</h6>
+            industry.</h6>
     </div>
 </div>
 
