@@ -23,7 +23,7 @@ get_header(); ?>
         <div>
             <h2>Our Mission</h2>
             <p>To show that Sports and Entertainment are viable industries with vast career options for young aspiring
-                individuals by creating better access to information, opportunities, and resources</p>
+                individuals by creating better access to information, opportunities, and resources.</p>
         </div>
         <div class="bloc-img"></div>
     </div>

@@ -424,7 +424,8 @@ input#is-search-input-143::placeholder {
 .mission .bloc p {
     color: #fff;
     margin: 1rem 0;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    text-align: center;
 }
 
 .mission-wave {
