@@ -678,6 +678,7 @@ input#is-search-input-143::placeholder {
 
 .member-benefits {
     background: #000 url(../img/community-hands.jpg) no-repeat center/cover;
+    background-attachment: fixed;
     padding: 3rem;
     margin: 3rem 0;
 }
