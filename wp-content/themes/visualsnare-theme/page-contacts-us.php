@@ -27,8 +27,8 @@ get_header(); ?>
             <div class="col-md-5">
                 <div class="email-bloc">
                     <h4>Reach Us Via Email</h4>
-                    <a href="mailto:ella@bridgedinternational.co.uk">ella@bridgedinternational.co.uk</a>
-                    <a href="mailto:ishwari@bridgedinternational.co.uk">ishwari@bridgedinternational.co.uk</a>
+                    <a href="mailto:ella@bridgedinternational.com">ella@bridgedinternational.com</a>
+                    <a href="mailto:ishwari@bridgedinternational.com">ishwari@bridgedinternational.com</a>
                 </div>
                 <div class="social-media-bloc">
                     <h4>Follow Our Social Media</h4>

@@ -583,7 +583,8 @@ input#is-search-input-143::placeholder {
 
 /* CONTACT PAGE */
 
-.page-contacts {
+.page-contact-us,
+.page-jobs-board {
     background-color: #edecec7b;
 }
 
@@ -812,6 +813,73 @@ i.bi.bi-circle-fill {
     margin-top: .8rem;
 }
 
+/* JOBS BOARD PAGE */
+
+.jobs-bloc {
+    display: grid;
+    grid-template-columns: 2fr .5fr;
+    padding: 1rem 2rem;
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    background: #fff;
+    margin: 3rem 0;
+}
+
+.jobs-bloc h4 {
+    color: var(--blue);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.jobs-bloc .company-name {
+    font-weight: 700;
+}
+
+.jobs-bloc .deadline-status {
+    color: grey;
+    font-size: .9rem;
+}
+
+.jobs-bloc .location {
+    background-color: var(--blue);
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: .9rem;
+    margin-right: 15px;
+}
+
+.jobs-bloc .availability {
+    background-color: #71B9F3;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: .9rem;
+    margin-right: 15px;
+}
+
+.jobs-bloc .position {
+    background-color: #FFDE59;
+    color: gray;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: .9rem;
+    margin-right: 15px;
+}
+
+.jobs-bloc span {
+    position: relative;
+    top: -7px;
+}
+
+.jobs-bloc a{
+    color: var(--blue);
+    font-weight: 700;
+}
+
+.jobs-bloc a:hover{
+    color: #71B9F3;
+}
 
 /* FOOTER */
 

@@ -137,4 +137,8 @@
         flex-direction: column;
         margin-top: 1.5em;
     } 
+
+    .jobs-bloc {
+        grid-template-columns: 1fr;
+    }
 }

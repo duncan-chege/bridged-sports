@@ -11,7 +11,7 @@
             <div class="col-md-9">
                 <div class="footer-links d-flex flex-wrap justify-content-between">
                     <a href="<?php echo home_url(); ?>/community-hub">Community Hub</a>
-                    <a href="#">Jobs Board</a>
+                    <a href="<?php echo home_url(); ?>/jobs-board">Jobs Board</a>
                     <a href="#">Projects</a>
                     <a href="<?php echo home_url(); ?>/contact-us">Contacts</a>
                 </div>
